@@ -13,11 +13,398 @@
 }
 
 /*@media screen and (max-width:320px) {}*/
-/*@media screen and (min-width:321px) and (max-width:639px) {}*/
-/*@media screen and (min-width:640px) and (max-width:959px) {}*/
-/*@media screen and (min-width:960px) and (max-width:1279px) {}*/
-/*@media screen and (min-width:1280px) and (max-width:1599px) {}*/
-@media screen and (min-width:1px) {
+@media screen and (min-width:321px) and (max-width:639px) {
+  .Header {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+  }
+
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+
+  .Calculator {
+    text-align: center;
+    width: 80%;
+    /*height: 70%;*/
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 2em;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+
+  .Button:active {
+    transform: scale(0.92);
+  }
+
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+  .Header {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+  }
+
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+
+  .Calculator {
+    text-align: center;
+    width: 45%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+
+  .Button:active {
+    transform: scale(0.92);
+  }
+
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+  .Header {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+  }
+
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+
+  .Calculator {
+    text-align: center;
+    width: 35%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+
+  .Button:active {
+    transform: scale(0.92);
+  }
+
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+
+  .Header {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+  }
+
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+
+  .Calculator {
+    text-align: center;
+    width: 28%;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+
+  .Button:active {
+    transform: scale(0.92);
+  }
+
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+
+}
+@media screen and (min-width:1600px) {
 
   .Header {
     position: absolute;
