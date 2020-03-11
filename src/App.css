@@ -15,13 +15,10 @@
 /*@media screen and (max-width:320px) {}*/
 @media screen and (min-width:321px) and (max-width:639px) {
   .Header {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-decoration-line: none;
     font-size: 1.3em;
+    margin-bottom: 1em;
   }
 
   .Header:hover {
@@ -38,13 +35,10 @@
     /*height: 70%;*/
     padding-top: 1em;
     padding-bottom: 0.3em;
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
     border-style: solid;
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
+    margin: 0 auto;
   }
 
   .displayValue {
@@ -113,13 +107,10 @@
 }
 @media screen and (min-width:640px) and (max-width:959px) {
   .Header {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-decoration-line: none;
     font-size: 1.3em;
+    margin-bottom: 1em;
   }
 
   .Header:hover {
@@ -135,10 +126,7 @@
     width: 45%;
     padding-top: 1em;
     padding-bottom: 3em;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     border-style: solid;
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
@@ -210,10 +198,6 @@
 }
 @media screen and (min-width:960px) and (max-width:1279px) {
   .Header {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-decoration-line: none;
     font-size: 1.3em;
@@ -232,10 +216,7 @@
     width: 35%;
     padding-top: 1em;
     padding-bottom: 3em;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     border-style: solid;
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
@@ -308,10 +289,6 @@
 @media screen and (min-width:1280px) and (max-width:1599px) {
 
   .Header {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-decoration-line: none;
     font-size: 1.3em;
@@ -328,13 +305,10 @@
   .Calculator {
     text-align: center;
     width: 28%;
-    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 3em;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    margin-top: 1em;
     border-style: solid;
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
@@ -407,10 +381,6 @@
 @media screen and (min-width:1600px) {
 
   .Header {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%, -50%);
     text-align: center;
     text-decoration-line: none;
     font-size: 1.3em;
@@ -429,10 +399,8 @@
     width: 20%;
     padding-top: 1em;
     padding-bottom: 3em;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    margin-top: 6em;
     border-style: solid;
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
