@@ -12,7 +12,25 @@
   color: rgb(66, 66, 66);
 }
 
-/*@media screen and (max-width:320px) {}*/
+/** HEADER **/
+/** HEADER **/
+
+@media screen and (max-width:320px) {
+  .Header {
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+}
 @media screen and (min-width:321px) and (max-width:639px) {
   .Header {
     text-align: center;
@@ -28,82 +46,6 @@
   .Header a {
     text-decoration-line: none;
   }
-
-  .Calculator {
-    text-align: center;
-    width: 80%;
-    /*height: 70%;*/
-    padding-top: 1em;
-    padding-bottom: 0.3em;
-    border-style: solid;
-    border-radius: 3em;
-    background: rgba(21, 90, 125, 0.11) !important;
-    margin: 0 auto;
-  }
-
-  .displayValue {
-    border-style: solid;
-    border-radius: 0.6em;
-    border-width: medium;
-    font-size: 3em;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    /*display: inline-block;*/
-    overflow:hidden;
-    /*background: rgba(6, 5, 203, 0.06);*/
-  }
-  .Button {
-    font-size: 1.5em;
-    width: 22%;
-    height: 2em;
-    border-radius: 1em;
-    margin: 0.4em;
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-  }
-
-  .Button:active {
-    transform: scale(0.92);
-  }
-
-  .ButtonHidden {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(0, 0, 0, 0.05);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    opacity: 0;
-  }
-
-  .ButtonOperator {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(255, 100, 0, 0.16);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    font-weight: bold;
-  }
-
-  .ButtonOperator:active {
-    transform: scale(0.92);
-  }
-
-  .Debug {
-    /*opacity: 0;*/
-    display: none;
-  }
-
 }
 @media screen and (min-width:640px) and (max-width:959px) {
   .Header {
@@ -120,81 +62,6 @@
   .Header a {
     text-decoration-line: none;
   }
-
-  .Calculator {
-    text-align: center;
-    width: 45%;
-    padding-top: 1em;
-    padding-bottom: 3em;
-    margin: 0 auto;
-    border-style: solid;
-    border-radius: 3em;
-    background: rgba(21, 90, 125, 0.11) !important;
-  }
-
-  .displayValue {
-    border-style: solid;
-    border-radius: 0.6em;
-    border-width: medium;
-    font-size: 3em;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    /*display: inline-block;*/
-    overflow:hidden;
-    /*background: rgba(6, 5, 203, 0.06);*/
-  }
-  .Button {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-  }
-
-  .Button:active {
-    transform: scale(0.92);
-  }
-
-  .ButtonHidden {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(0, 0, 0, 0.05);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    opacity: 0;
-  }
-
-  .ButtonOperator {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(255, 100, 0, 0.16);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    font-weight: bold;
-  }
-
-  .ButtonOperator:active {
-    transform: scale(0.92);
-  }
-
-  .Debug {
-    /*opacity: 0;*/
-    display: none;
-  }
-
 }
 @media screen and (min-width:960px) and (max-width:1279px) {
   .Header {
@@ -210,84 +77,8 @@
   .Header a {
     text-decoration-line: none;
   }
-
-  .Calculator {
-    text-align: center;
-    width: 35%;
-    padding-top: 1em;
-    padding-bottom: 3em;
-    margin: 0 auto;
-    border-style: solid;
-    border-radius: 3em;
-    background: rgba(21, 90, 125, 0.11) !important;
-  }
-
-  .displayValue {
-    border-style: solid;
-    border-radius: 0.6em;
-    border-width: medium;
-    font-size: 3em;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    /*display: inline-block;*/
-    overflow:hidden;
-    /*background: rgba(6, 5, 203, 0.06);*/
-  }
-  .Button {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-  }
-
-  .Button:active {
-    transform: scale(0.92);
-  }
-
-  .ButtonHidden {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(0, 0, 0, 0.05);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    opacity: 0;
-  }
-
-  .ButtonOperator {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(255, 100, 0, 0.16);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    font-weight: bold;
-  }
-
-  .ButtonOperator:active {
-    transform: scale(0.92);
-  }
-
-  .Debug {
-    /*opacity: 0;*/
-    display: none;
-  }
-
 }
 @media screen and (min-width:1280px) and (max-width:1599px) {
-
   .Header {
     text-align: center;
     text-decoration-line: none;
@@ -301,7 +92,76 @@
   .Header a {
     text-decoration-line: none;
   }
+}
+@media screen and (min-width:1600px) {
+  .Header {
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.3em;
+  }
 
+  .Header:hover {
+    font-weight: bold;
+  }
+
+  .Header a {
+    text-decoration-line: none;
+  }
+}
+
+/** CALCULATOR **/
+/** CALCULATOR **/
+@media screen and (max-width:320px) {
+  .Calculator {
+    text-align: center;
+    width: 80%;
+    /*height: 70%;*/
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+  .Calculator {
+    text-align: center;
+    width: 80%;
+    /*height: 70%;*/
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+  .Calculator {
+    text-align: center;
+    width: 45%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+  .Calculator {
+    text-align: center;
+    width: 35%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 3em;
+    background: rgba(21, 90, 125, 0.11) !important;
+  }
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
   .Calculator {
     text-align: center;
     width: 28%;
@@ -313,87 +173,8 @@
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
   }
-
-  .displayValue {
-    border-style: solid;
-    border-radius: 0.6em;
-    border-width: medium;
-    font-size: 3em;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    /*display: inline-block;*/
-    overflow:hidden;
-    /*background: rgba(6, 5, 203, 0.06);*/
-  }
-  .Button {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-  }
-
-  .Button:active {
-    transform: scale(0.92);
-  }
-
-  .ButtonHidden {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(0, 0, 0, 0.05);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    opacity: 0;
-  }
-
-  .ButtonOperator {
-    font-size: 1.5em;
-    width: 22%;
-    height: 50px;
-    border-radius: 1em;
-    margin: 0.4em;
-    background: rgba(255, 100, 0, 0.16);
-    border-style: solid;
-    border-color: rgb(66, 66, 66);
-    font-weight: bold;
-  }
-
-  .ButtonOperator:active {
-    transform: scale(0.92);
-  }
-
-  .Debug {
-    /*opacity: 0;*/
-    display: none;
-  }
-
 }
 @media screen and (min-width:1600px) {
-
-  .Header {
-    text-align: center;
-    text-decoration-line: none;
-    font-size: 1.3em;
-  }
-
-  .Header:hover {
-    font-weight: bold;
-  }
-
-  .Header a {
-    text-decoration-line: none;
-  }
-
   .Calculator {
     text-align: center;
     width: 20%;
@@ -405,7 +186,47 @@
     border-radius: 3em;
     background: rgba(21, 90, 125, 0.11) !important;
   }
+}
 
+/** DisplayValue **/
+/** DisplayValue **/
+@media screen and (max-width:320px) {
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow: hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+}
+@media screen and (min-width:640px) and (max-width:959px) {
   .displayValue {
     border-style: solid;
     border-radius: 0.6em;
@@ -422,20 +243,78 @@
     overflow:hidden;
     /*background: rgba(6, 5, 203, 0.06);*/
   }
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow: hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+}
+@media screen and (min-width:1600px) {
+  .displayValue {
+    border-style: solid;
+    border-radius: 0.6em;
+    border-width: medium;
+    font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    /*display: inline-block;*/
+    overflow:hidden;
+    /*background: rgba(6, 5, 203, 0.06);*/
+  }
+}
+
+/** BUTTON **/
+/** BUTTON **/
+@media screen and (max-width:320px) {
   .Button {
     font-size: 1.5em;
     width: 22%;
-    height: 50px;
+    height: 2em;
     border-radius: 1em;
     margin: 0.4em;
     border-style: solid;
     border-color: rgb(66, 66, 66);
-  }
 
+  }
   .Button:active {
     transform: scale(0.92);
   }
-
   .ButtonHidden {
     font-size: 1.5em;
     width: 22%;
@@ -447,7 +326,6 @@
     border-color: rgb(66, 66, 66);
     opacity: 0;
   }
-
   .ButtonOperator {
     font-size: 1.5em;
     width: 22%;
@@ -459,14 +337,251 @@
     border-color: rgb(66, 66, 66);
     font-weight: bold;
   }
-
   .ButtonOperator:active {
     transform: scale(0.92);
   }
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 2em;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    user-select: none; /* supported by Chrome and Opera */
+    /*-webkit-user-select: none; !* Safari *!*/
+    /*-khtml-user-select: none; !* Konqueror HTML *!*/
+    /*-moz-user-select: none; !* Firefox *!*/
+    /*-ms-user-select: none; !* Internet Explorer/Edge *!*/
+  }
+  .Button:active {
+    transform: scale(0.92);
+    user-select: none; /* supported by Chrome and Opera */
+    /*-webkit-user-select: none; !* Safari *!*/
+    /*-khtml-user-select: none; !* Konqueror HTML *!*/
+    /*-moz-user-select: none; !* Firefox *!*/
+    /*-ms-user-select: none; !* Internet Explorer/Edge *!*/
+  }
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+  .Button:active {
+    transform: scale(0.92);
+  }
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+  .Button:active {
+    transform: scale(0.92);
+  }
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+  .Button:active {
+    transform: scale(0.92);
+  }
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+}
+@media screen and (min-width:1600px) {
+  .Button {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+  }
+  .Button:active {
+    transform: scale(0.92);
+  }
+  .ButtonHidden {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(0, 0, 0, 0.05);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    opacity: 0;
+  }
+  .ButtonOperator {
+    font-size: 1.5em;
+    width: 22%;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0.4em;
+    background: rgba(255, 100, 0, 0.16);
+    border-style: solid;
+    border-color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+  .ButtonOperator:active {
+    transform: scale(0.92);
+  }
+}
 
+/** DEBUG **/
+/** DEBUG **/
+@media screen and (max-width:320px) {
   .Debug {
     /*opacity: 0;*/
     display: none;
   }
-
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
+}
+@media screen and (min-width:1600px) {
+  .Debug {
+    /*opacity: 0;*/
+    display: none;
+  }
 }
