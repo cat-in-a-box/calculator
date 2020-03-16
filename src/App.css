@@ -299,8 +299,8 @@
   }
 }
 
-/** BUTTON **/
-/** BUTTON **/
+/** BUTTONS **/
+/** BUTTONS **/
 @media screen and (max-width:320px) {
   .Button {
     font-size: 1.5em;
@@ -310,10 +310,15 @@
     margin: 0.4em;
     border-style: solid;
     border-color: rgb(66, 66, 66);
-
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
   .Button:active {
     transform: scale(0.92);
+  }
+  .Button:focus {
+    outline: none;
   }
   .ButtonHidden {
     font-size: 1.5em;
@@ -350,19 +355,12 @@
     margin: 0.4em;
     border-style: solid;
     border-color: rgb(66, 66, 66);
-    user-select: none; /* supported by Chrome and Opera */
-    /*-webkit-user-select: none; !* Safari *!*/
-    /*-khtml-user-select: none; !* Konqueror HTML *!*/
-    /*-moz-user-select: none; !* Firefox *!*/
-    /*-ms-user-select: none; !* Internet Explorer/Edge *!*/
   }
   .Button:active {
     transform: scale(0.92);
-    user-select: none; /* supported by Chrome and Opera */
-    /*-webkit-user-select: none; !* Safari *!*/
-    /*-khtml-user-select: none; !* Konqueror HTML *!*/
-    /*-moz-user-select: none; !* Firefox *!*/
-    /*-ms-user-select: none; !* Internet Explorer/Edge *!*/
+  }
+  .Button:focus {
+    outline: none;
   }
   .ButtonHidden {
     font-size: 1.5em;
@@ -403,6 +401,9 @@
   .Button:active {
     transform: scale(0.92);
   }
+  .Button:focus {
+    outline: none;
+  }
   .ButtonHidden {
     font-size: 1.5em;
     width: 22%;
@@ -441,6 +442,9 @@
   }
   .Button:active {
     transform: scale(0.92);
+  }
+  .Button:focus {
+    outline: none;
   }
   .ButtonHidden {
     font-size: 1.5em;
@@ -516,6 +520,9 @@
     margin: 0.4em;
     border-style: solid;
     border-color: rgb(66, 66, 66);
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
   .Button:active {
     transform: scale(0.92);
